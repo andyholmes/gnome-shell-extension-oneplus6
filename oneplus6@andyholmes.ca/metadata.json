@@ -1,0 +1,9 @@
+{
+  "uuid": "oneplus6@andyholmes.ca",
+  "name": "OnePlus6 Support",
+  "description": "Extra support and tweaks for GNOME Shell on the OnePlus6",
+  "shell-version": [
+    "44"
+  ],
+  "url": "https://github.com/andyholmes/gnome-shell-extension-oneplus6/"
+}
