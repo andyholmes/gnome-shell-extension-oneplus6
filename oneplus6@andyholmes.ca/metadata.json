@@ -1,9 +1,12 @@
 {
   "uuid": "oneplus6@andyholmes.ca",
-  "name": "OnePlus6 Support",
-  "description": "Extra support and tweaks for GNOME Shell on the OnePlus6",
+  "name": "OnePlus 6 Support",
+  "description": "Extra support and tweaks for GNOME Shell on the OnePlus 6",
   "shell-version": [
     "44"
   ],
-  "url": "https://github.com/andyholmes/gnome-shell-extension-oneplus6/"
+  "url": "https://github.com/andyholmes/gnome-shell-extension-oneplus6/",
+  "gettext-domain": "oneplus6@andyholmes.ca",
+  "session-modes": ["user", "unlock-dialog"],
+  "settings-schema": "org.gnome.shell.extensions.oneplus6"
 }

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<!-- SPDX-FileCopyrightText: Andy Holmes <andrew.g.r.holmes@gmail.com> -->
+
+<interface domain="oneplus6@andyholmes.ca">
+  <template class="OP6PanelPreferences" parent="AdwPreferencesPage">
+        <property name="name">panel</property>
+        <property name="title" translatable="yes">Panel</property>
+        <property name="icon-name">dialog-information-symbolic</property>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <property name="title" translatable="yes">Clock</property>
+        <property name="description" translatable="yes">Customize the appearance of the Date Menu</property>
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Move Clock</property>
+            <property name="subtitle" translatable="yes">Move the clock to the left side of the panel</property>
+            <property name="activatable-widget">clock_move_left</property>
+            <child type="suffix">
+              <object class="GtkSwitch" id="clock_move_left">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Hide Date</property>
+            <property name="subtitle" translatable="yes">Only show the time in the panel</property>
+            <property name="activatable-widget">clock_hide_date</property>
+            <child type="suffix">
+              <object class="GtkSwitch" id="clock_hide_date">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <property name="title" translatable="yes">Status</property>
+        <property name="description" translatable="yes">Customize the appearance of the Status Area</property>
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Hide Volume</property>
+            <property name="subtitle" translatable="yes">Remove the mixer icons from the panel</property>
+            <property name="activatable-widget">status_hide_volume</property>
+            <child type="suffix">
+              <object class="GtkSwitch" id="status_hide_volume">
+                <property name="valign">center</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

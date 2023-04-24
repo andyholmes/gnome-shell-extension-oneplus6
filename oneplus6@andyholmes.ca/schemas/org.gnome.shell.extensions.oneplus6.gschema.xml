@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.oneplus6" path="/org/gnome/shell/extensions/oneplus6/">
+    <!-- Panel Preferences -->
+    <key name="clock-move-left" type="b">
+      <default>true</default>
+    </key>
+    <key name="clock-hide-date" type="b">
+      <default>true</default>
+    </key>
+
+    <key name="status-hide-volume" type="b">
+      <default>true</default>
+    </key>
+  </schema>
+</schemalist>
